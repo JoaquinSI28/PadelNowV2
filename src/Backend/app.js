@@ -6,8 +6,8 @@ import express, { application } from 'express';
 //import cors from 'cors';
 //import path from 'path';
 import morgan from 'morgan'
-import database from './database.js'
 
+const database = require("./database.js");
 
 //Configuracion Inicial
 const app = express();
