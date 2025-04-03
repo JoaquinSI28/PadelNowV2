@@ -29,3 +29,7 @@ app.get("/cancha", async(req,res) =>{
     console.log(result)
 })
 
+app.get("/pato", (req,res) =>{
+    res.send("mensaje recibido")
+})
+
