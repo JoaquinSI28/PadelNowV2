@@ -23,13 +23,10 @@ app.use(morgan("dev"))
 
 //Rutas
 
-//app.get("/cancha", async(req,res) =>{
-    //const connection = await database.getConnection();
-    //const result = await connection.query("SELECT * from cancha");
-    //console.log(result)
-//})
-
-app.get("/pato", (req,res) =>{
-    res.send("mensaje recibido")
+app.get("/cancha", async(req,res) =>{
+    const connection = await database.getConnection();
+    const result = await connection.query("SELECT * from cancha");
+    console.log(result)
 })
+
 

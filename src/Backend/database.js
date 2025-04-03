@@ -3,16 +3,15 @@ import dotenv from 'dotenv';
 dotenv.config();
 
 const connection = mysql.createConnection({
-    host:process.env.HOST,
-    database: process.env.DATABASE,
-    user: process.env.USER,
-    password: process.env.PASSWORD,
-    puerto : process.env.PUERTO
+    host: "localhost",
+    database: "cancha",
+    user: "root",
+    password: "200428",
+    port: 4000,
 })
 
 const getConnection = async ()=> await connection;
 
-export default {
-    getConnection
-}
+export default getConnection;
+
 
