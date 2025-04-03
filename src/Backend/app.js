@@ -7,7 +7,7 @@ import express, { application } from 'express';
 //import path from 'path';
 import morgan from 'morgan'
 
-import database from ("./database.js");
+import database from "./database.js";
 
 //Configuracion Inicial
 const app = express();
