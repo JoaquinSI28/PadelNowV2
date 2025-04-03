@@ -1,4 +1,4 @@
-import mysql from 'promise-mysql';
+import mysql from 'mysql2/promise';
 import dotenv from 'dotenv';
 dotenv.config();
 
@@ -7,7 +7,7 @@ const connection = mysql.createConnection({
     database: "cancha",
     user: "root",
     password: "200428",
-    port: 4000,
+    port: 5000,
 })
 
 const getConnection = async ()=> await connection;

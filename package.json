@@ -5,6 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "nodemon src/Backend/app.js",
     "dev": "nodemon src/Backend/app.js"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "dotenv": "^16.4.7",
     "express": "^5.1.0",
     "morgan": "^1.10.0",
+    "mysql2": "^3.14.0",
     "nodemon": "^3.1.9",
     "promise-mysql": "^5.2.0"
   }
