@@ -2,7 +2,7 @@
   "name": "padelnowv2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "nodemon /src/Backend/app.js",
   "type":"module",
   "scripts": {
     "dev": "nodemon /src/Backend/app.js"
