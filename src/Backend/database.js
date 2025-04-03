@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
 
 const getConnection = async ()=> await connection;
 
-module.exports = {
+export default {
     getConnection
 }
 
