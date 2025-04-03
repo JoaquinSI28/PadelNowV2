@@ -12,7 +12,7 @@ import database from "./database.js";
 //Configuracion Inicial
 const app = express();
 
-app.set("port", 3000)
+app.set("port", 3300)
 app.listen(app.get("port"))
 console.log("Escuchando comunicaciones al puerto" + app.get("port"));
 
